@@ -6,7 +6,7 @@
 
 ### Link and Resources 
 
-1.[Stack overflow](https://stackoverflow.com/questions/24719368/syntaxerror-non-default-argument-follows-default-argument)
+1.[Stack overflow](https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote)
 
 
 2.[gitignore](https://www.toptal.com/developers/gitignore)
