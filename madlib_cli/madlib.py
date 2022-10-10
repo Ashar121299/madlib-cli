@@ -3,7 +3,7 @@ def welcoming():
     print("welcome to MADLIB game")
     print("Mad Libs are a word replacment game")
     print("so you will enter some words then it will replaced in a pargraph")
-    print("it may be a funny !")
+    print("it may be a funny :) ")
     print("let we start")
     
 welcoming()
