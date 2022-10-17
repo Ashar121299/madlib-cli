@@ -23,16 +23,23 @@ def parse_template(sentances):
     return inside,language_part
 
 
-def inputs(words):
+def inputs(words) -> str:
     arr=[]
-    for word in words:
-        arr.append(input("{part} ==>"))
+    for word in list(words):
+        arr.append(input(f'{word} ==>'))
     return tuple(arr)
 
+
 def merge(inside , words):
-    return inside.format(*words)
+    return inside.format(* words)
 
-
-
-    
+if __name__=='__main__':
+    def result (pathofTxt):
+        cont=read_template(pathofTxt)
+        ins,parts=parse_template(cont)
+        collect=inputs(parts)
+        res=merge( ins , collect)
+        return  res
+if __name__=='__main__':
+    print(result('assets/dark_and_stormy_night_template.txt') )   
  
